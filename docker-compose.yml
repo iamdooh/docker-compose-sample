@@ -1,0 +1,11 @@
+version: "3"
+services:
+  nextjs:
+      container_name: nginx-web-b2b-checkup-nextjs
+      build:
+        context: ./
+        dockerfile: Dockerfile
+  nginx:
+    build: ./nginx
+    ports:
+      - 80:80
