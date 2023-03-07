@@ -1,0 +1,10 @@
+.docs/
+.git/
+.gitignore
+.next/
+.dockerignore
+
+Dockerfile
+docker-compose.yml
+node_modules/
+nginx/
