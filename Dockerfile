@@ -30,7 +30,3 @@ USER node
 # Run npm start script with PM2 when container starts
 CMD [ "pm2-runtime", "npm", "--", "start" ]
 
-# RUN npm run build:dev-with-storybook
-# If you want deploy without storybook, please use the below command line
-# RUN npm run build:dev
-
